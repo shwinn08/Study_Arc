@@ -1,0 +1,511 @@
+.yav {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+
+}
+
+body {
+    background-color: transparent;
+    background-image: linear-gradient(to right top, #0dffcf, #00ddf8, #00b4ff, #007fff);
+ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.lol {
+
+    position: relative;
+    float: right;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #bffff0;
+}
+
+
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    float: left;
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;    
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: relative; 
+    right: 0px;
+}
+
+button:hover {
+  background-color: rgba(0, 136,169,0.8);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 15px;
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    
+
+
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+
+}
+
+.title {
+    top: 30px;
+    text-shadow: 10px;
+}
+
+.navigation {
+    position: fixed;
+    width: 30px;
+    height: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+    background: transparent;
+
+
+}
+
+.navigation:hover {
+    width: 300px;
+    transition: 2s;
+
+}
+
+
+
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+
+
+
+
+.navigation ul li a {
+   position: relative;
+   display: block;
+   width: 100%;
+   display: flex;
+   text-decoration: none;
+   color: #fff;
+   margin: 15px;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px;
+    left: -70px;
+
+}
+
+.navigation ul li a .icon .fab {
+    font-size: 24px;
+    margin: 20px;
+    left: 0px;
+    
+}
+ .no {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align:  center;
+    white-space: nowrap;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+}
+
+section {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+}
+
+section .book {
+    position: relative;
+    width: 383px;
+    height: 567px; 
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    left: 600px;
+    top: 170px;
+}
+
+section .book:hover {
+    transform: rotateY(35deg);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+section .book:active {
+    transform: rotateY(180deg);
+
+}
+
+
+section .book:before {
+   content: '';
+   position: absolute;
+   width: 60px;
+   height: 100%;
+   transform-origin: left;
+   background: url(side.jpg);
+   background-position: center;
+   transform: rotateY(90deg);
+}
+
+section .book::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background: url(back.jpeg);
+    background-position: center;
+    transform: rotateY(180deg) translateZ(60px);
+ }
+
+section .book img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #0dffcf, #00ddf8, #00b4ff, #007fff, #3a00ff);
+}
+
+h2 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.box div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255,255,255,0.8);
+
+}
+
+.box div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+    top: 80%;
+    left: 60%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7) {
+    top: 60%;
+    left: 60%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+    top: 32%;
+    left: 5%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9) {
+    top: 90%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+    top: 10%;
+    left: 80%;
+    animation: animate 12s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+
+    }
+    100% {
+       transform: scale(1.3) translateY(-90px) rotate(360deg);
+       opacity: 1;
+
+    }
+}
+
+.mySlides {display: none}
+    img {vertical-align: middle;}
+
+    .container {
+      max-width: 500px;
+      max-height: 500px;
+      position: relative;
+      margin: auto;
+      top: 1000px;
+      width: 100%;
+      height: 100%;
+      
+
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: rgb(86, 119, 194);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(70, 9, 9, 0.8);
+    }
+
+
+    .text {
+      color: black;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 275px;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      font-family:serif;
+      text-transform: uppercase;
+
+
+      
+    }
+
+
+    .numbertext69 {
+      color: white;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background: transparent;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: pink;
+    }
+
+
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1.3}
+    }
+
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1.3}
+    }
+
+
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+
+
+ .typical {
+     border: 1px solid;
+     top: 1000px;
+     left: 800px;
+ }
+
+ .typical:hover {
+     background-color: black;
+ }
+
+ .typical a {
+     scroll-behavior: smooth;
+ }
+
+ .ourm {
+     position: relative;
+     top: 1000px;
+     background: url(graduation.jpg);
+     width: 100%;
+     background-size: 100% 100%;
+     height: 700px;
+     
+ }
+
+
+
+.t {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 1000px;
+}
+
+.sai {
+    color: black;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
