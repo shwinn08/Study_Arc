@@ -1,0 +1,97 @@
+body{
+  background-color:#bffff0;
+}
+
+#myInput {
+  background-image: url('search2355.jpg');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid rgb(24, 128, 136);
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+
+  background: transparent;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.459);
+  display: inline-flex;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color:#566aaa;
+}
+
+p{
+ display: none;
+}
+
+h2{
+ font-family: sans-serif;
+ font-size: 50px;
+}
+
+ul img{
+  display:inline-flex;
+}
+
+.My ul li a {
+    display: inline;
+}
+
+.book2 {
+  position: absolute;
+  left: 200px;
+  bottom: 450px;
+  border: none;
+
+}
+
+.book3 {
+  position: absolute;
+  left: 450px;
+  bottom: 450px;
+}
+
+.book4 {
+  position: absolute;
+  left: 700px;
+  bottom: 450px;
+}
+
+.book5 {
+  position: absolute;
+  left: 950px;
+  bottom: 450px;
+}
+
+.book6 {
+  position: absolute;
+  left: 1200px;
+  bottom: 450px;
+}
+
+.book7 {
+  position: absolute;
+  left: 1450px;
+  bottom: 450px;
+}
+
+.Myul {
+  width: 100%;
+  background:transparent;
+}
+  
+
+  

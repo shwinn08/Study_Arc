@@ -1,0 +1,44 @@
+.our-mission{
+    padding-top: 5%;
+
+
+}
+
+body{
+    background-color: #131313;
+}
+
+.about-img{
+    position: relative;
+}
+.about-img::before{
+    position: absolute;
+    content: '';
+    right: 30px;
+    top: 30px;
+    border: 10px solid rgba(255,255,255,0.4);
+    width: 100%;
+    height: 100%;
+}
+.about-img img {
+    width: 100%;
+}
+.about-text{
+    padding-top: 20;
+}
+.about-text h2{
+    color: #fff;
+    font-family: lobster;
+    font-size: 50px;
+}
+.about-text p {
+    font-size: 18px;
+    color:#ddd;
+}
+.about-text a{
+    background: orangered;
+    color: #fff;
+    padding: 7px 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
