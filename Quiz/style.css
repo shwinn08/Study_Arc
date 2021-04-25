@@ -1,0 +1,187 @@
+body{
+    background: linear-gradient(to right, #00deff, #00b8ff, #008eff, #005dfd, #0900d3);
+    max-width: 100vh;
+}
+
+h1{
+    position: relative;
+    right: -400px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.form{
+    padding: 20px;
+    background: transparent;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    right: -375px;
+    padding: 10px;
+    align-content:center;
+    font-family: sans-serif;
+}
+
+.q1{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label1{
+    position: relative;
+    left: 5%;
+}
+
+.q2{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label2{
+    position: relative;
+    left: 5%;
+}
+
+.q3{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label3{
+    position: relative;
+    left: 5%;
+}
+
+.q4{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label4{
+    position: relative;
+    left: 5%;
+}
+
+.q5{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label5{
+    position: relative;
+    left: 5%;
+}
+
+
+.a1{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label1a{
+    position: relative;
+    left: 5%;
+}
+
+
+.a2{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label2a{
+    position: relative;
+    left: 5%;
+}
+
+
+.a3{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label3a{
+    position: relative;
+    left: 5%;
+}
+
+
+.a4{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label4a{
+    position: relative;
+    left: 5%;
+}
+
+
+.a5{
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.label5a{
+    position: relative;
+    left: 5%;
+}
+
+
+.submit{
+    position:relative;
+    left: 50%;
+}
+
+
+
+.c1{
+    padding: 20px;
+
+}
+
+.c2{
+    padding: 20px;
+}
+
+.c3{
+    padding: 20px;
+}
+
+.c4{
+    padding: 20px;
+}
+
+.c5{
+    padding: 20px;
+}
+
+.btn{
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 50px;
+}
+
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+label{
+    font-size: large;
+}
