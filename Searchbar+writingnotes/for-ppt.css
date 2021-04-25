@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position:relative;
+    float: left;
+    background-image: linear-gradient(to right top, #b4ffed, #00e6ff, #00c3ff, #008fff, #ad00ff);
+    background-size: cover;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+    color:white;
+    font-size: 19px;
+    position: relative;
+    
+    
+}
+h2{
+ position: relative;
+ bottom: 80px;
+ right: -30%; 
+ font-size: 10px;
+}
+
+h3{
+    position: relative;
+   
+    right: -30%;
+   }
+
+.powerpoint{
+    position: relative;
+    left: 1%;
+
+}
+
+
+
+.add {
+    background-image: linear-gradient(to right top, #2c3574, #223061, #1d2a4d, #1b2439, #191d26);
+    border-radius: 3px;
+    border: none;
+    color:white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    height: 2rem;
+    float: left;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 25px;
+    top: -30px;
+    color: white;
+    left: 700px;
+    shape-outside: circle();
+    text-decoration: violet;
+}
+
+.note {
+    background-image: linear-gradient(to right top, #2c3574, #223061, #1d2a4d, #1b2439, #191d26);
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 550px;
+    width: 720px;
+    position:initial;
+    float:left;
+    top: 1rem;
+    left:2rem;
+    color: black;
+    margin: 10px;
+    
+    
+}
+
+.note .tools {
+    background-image: linear-gradient(to right top, #2c3574, #223061, #1d2a4d, #1b2439, #191d26);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color:white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    background-image: linear-gradient(to right top, #b4ffed, #00e6ff, #00c3ff, #008fff, #ad00ff);
+    overflow: hidden;
+    height: 514px;
+    width: 720px;
+
+
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    color:white;
+    background-color:transparent;
+    font-size: 1.2rem;
+    border: none;
+    display: block;
+    height: 514px;
+    width: 100%;
+}
+
+.note .hidden {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+
+}
+
+.lol {
+
+    position: relative;
+    
+    float: right;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #bffff0;
+}
+
+
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    float: left;
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: relative; 
+    right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 136,169,0.8);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 15px;
+    background-color: #24252A;
+    width: 100%;
+    margin-bottom: 3px;
+    
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    right: 0;
+    width: 60px;
+    height: 60px;
+
+
+
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+
+}
+
+
+
+
+
+
